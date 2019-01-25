@@ -29,7 +29,7 @@ class Landingpage extends Component{
             </a>
 
             {/*Github profile*/}
-            <a href="http://google.com"  rel="noopener noreferrer" target="_blank">
+            <a href="https://github.com/zenvikkcode"  rel="noopener noreferrer" target="_blank">
             <i className="fa fa-github-square "  aria-hidden="true"/>
             </a>
 
@@ -39,8 +39,8 @@ class Landingpage extends Component{
             </a>
 
             {/*Youtube profile*/}
-            <a href="http://google.com"  rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-youtube-square "  aria-hidden="true"/>
+            <a href="https://gitlab.com/codepalapa"  rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-gitlab-square "  aria-hidden="true"/>
             </a>
             </div>
             </Cell>
