@@ -1,14 +1,28 @@
 .header-color{
-background: #c31432;  /* fallback for old browsers */
+  background: #c31432;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
 
-}
+.header-color h6 {
+  font-family: 'Ubuntu', sans-serif;
+  }
+
+  .header-color h3 {
+    font-family: 'Ubuntu', sans-serif;
+    }
+
+    .drawer h3,h6{
+      font-family: 'Ubuntu', sans-serif;
+
+    }
 
 .landingpage{
-background: #c31432;  /* fallback for old browsers */
+  background: #c31432;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 text-align: center;
 position: fixed;
 top :0;
@@ -18,7 +32,6 @@ height: 100%;
 
 }
 
-
 .avatar-img{
   height:250px;
   padding-top:4em; 
@@ -26,7 +39,8 @@ height: 100%;
 }
 
 .banner-text{
-  background-color: black;
+  background: #000000;
+ 
   opacity: .8;
   width: 75%;
   margin: auto;
@@ -34,6 +48,7 @@ height: 100%;
    }
 
 .banner-text h1{
+  font-family: 'Ubuntu', sans-serif;
   font-size: 66px;
   font-weight: bold;
   color: white;
@@ -45,6 +60,7 @@ height: 100%;
     margin:auto;
   }
 .banner-text p{
+  font-family: 'Ubuntu', sans-serif;
   color: white;
   font-size : 20px;
   padding: 1em;
@@ -87,6 +103,7 @@ height: 100%;
   margin-bottom: 20px;
 
 }
+
 .contact-grid h2{
   font-family : 'Anton',sans-serif;
 }
@@ -114,3 +131,32 @@ color:white;
 padding:2em;
 
 }
+
+.resume-grid p {
+  font-family : 'Oxygen',sans-serif;
+  
+}
+
+.resume {
+  font-family : 'Oxygen',sans-serif;
+  
+}
+
+.resume-grid h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+.resume-grid h4 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+.resume-right-col p{
+
+  white-space: pre-wrap;
+
+}
+
+
+

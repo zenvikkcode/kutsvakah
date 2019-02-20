@@ -11,8 +11,8 @@ import pic from './vic.jpeg';
 class Resume extends Component{
   render(){
     return(
-  <div >
-      <Grid>
+  <div  style={{width:'100%',margin:'auto' }}>
+      <Grid className="resume-grid">
         <Cell col={4} style={{textAlign:'center'}}>
 
         <img
@@ -25,7 +25,7 @@ class Resume extends Component{
         <h4 style={{color:'grey'}}>Software Developer</h4>
         <hr style={{borderTop:'3px solid #b31217',width:'50%',margin:'auto'}}/>
 
-        <p style={{ }}>
+        <p style={{width:'75%' ,margin:'auto',paddingTop:'1em'}}>
         A self-motivated Software Engineering Graduate who is seeking to find an opportunity
         to work in an exciting and challenging working environment that will encourage to improve
         and learn new skills that will give the company and him the technological edge in the field of Software Engineering.
@@ -35,7 +35,7 @@ class Resume extends Component{
 
         <h5>Address</h5>
 
-         <p>4194 Katanga,Norton,Zimbabwe</p>
+         <p >4194 Katanga,Norton,Zimbabwe</p>
          <h5>Phone</h5>
          <p>+263 779 477473</p>
          <h5>Email</h5>
@@ -51,9 +51,9 @@ class Resume extends Component{
         startYear={2008}
         endYear={2013}
         schoolName="St Mary Magdalene’s High School Nyanga"
-
-        schoolDescription="3 A Level’s Mathematics  Physics  Computer Studies 10 O Level’s including Mathematics, English and Computing "
-        />
+        schoolDescription_1= "• 3 A Level’s Mathematics  Physics  Computer Studies" 
+        schoolDescription_2= "• 10 O Level’s including Mathematics, English and Computing"
+        /> 
 
         <Education
         startYear={2014}
@@ -69,26 +69,20 @@ class Resume extends Component{
         <Experience
         startYear={2016}
         endYear={2017}
-        Name="IT Intern : First Mutual Holdings"
-        Description=" Made a positive impact in all the IT sectors including Business Systems Support and Development, IT Infrastructure and Security.
-Duties:
-•	Software design and development where I helped in the specification of the Help Desk System and other Business Applications developed in-house making specifications easier to understand to all stakeholders.
-•	Network and Database Administration.
-•	User Support.
-•	Configuring and monitoring Business Application Systems and Computer resources using software packages such as Data Protection Manager making the operations in the IT department more efficient reducing time and efforts to manage resources.
-
-"
+        Name="IT Intern : •  First Mutual Holdings"
+        Description_1 = " • Software design and development for inhouse applications."
+        Description_2 = "• Network and Database Administration.            "
+        Description_3 = " • Support."
+        Description_4 = " • Configuring and monitoring Business Application Systems and Computer resources."
         />
 
         <Experience
         startYear={2018}
         endYear={2019}
         Name="Software Developer : MRS Afrika"
-        Description=" •	Software Analysis, Design and Documentation on the APPI Tool (current project working on).
-        •	Software Development using Laravel (current project, APPI Tool).
+        Description_5 = "• Software Analysis, Design and Documentation on the APPI Tool (current project)."
+        Description_6 = "• Software Development using Laravel (current project, APPI Tool)."
         
-
-"
         />
 
         <hr style={{borderTop:'3px solid #e22947', align:'center'}}/>

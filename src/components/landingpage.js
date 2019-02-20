@@ -38,10 +38,7 @@ class Landingpage extends Component{
             <i className="fa fa-twitter-square "  aria-hidden="true"/>
             </a>
 
-            {/*Youtube profile*/}
-            <a href="https://gitlab.com/codepalapa"  rel="noopener noreferrer" target="_blank">
-            <i className="fab fa-gitlab-square"  aria-hidden="true"/>
-            </a>
+            
             </div>
             </Cell>
           </Grid>

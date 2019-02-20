@@ -13,50 +13,21 @@ toggleCategories(){
       <div className="projects-grid">
       {/*project 1*/}
       <Card shadow={5} style={{minWidth:'450',margin:'auto'}}>
-        <CardTitle style={{color:'#fff',height:'176px',background :'#240b36'}}>Domasy</CardTitle>
+        <CardTitle style={{color:'#fff',height:'176px',background :'#93291E'}}>Supplier Recommender System</CardTitle>
         <CardText>
-        An Agricultural based mobile application for allowing farmers to market products using blockchain technology.
+        A web Application that links suppliers and consumers using Association Rule Mining(FP Growth Algorithm).
         </CardText>
         <CardActions border>
         <Button colored>Github </Button>
-        <Button colored>CodePen </Button>
         <Button colored>Heroku </Button>
         </CardActions>
         <CardMenu style={{color:'#fff'}}>
         <IconButton name="share"/>
         </CardMenu>
      </Card>
-     {/*project 2*/}
-     <Card shadow={5} style={{minWidth:'450',margin:'auto'}}>
-       <CardTitle style={{color:'#fff',height:'176px',background :'#8E0E00'}}>Kutsvaka Basa</CardTitle>
-       <CardText>
-       Web based resume ,that has been developed using Reactjs.It works as a resume for anyone to use when job application.
-       </CardText>
-       <CardActions border>
-       <Button colored>Github </Button>
-       <Button colored>CodePen </Button>
-       <Button colored>Heroku </Button>
-       </CardActions>
-       <CardMenu style={{color:'#fff'}}>
-       <IconButton name="share"/>
-       </CardMenu>
-    </Card>
+     
 
-    {/*project 3*/}
-    <Card shadow={5} style={{minWidth:'450',margin:'auto'}}>
-      <CardTitle style={{color:'#fff',height:'176px',background :'#240b36'}}>Varimi</CardTitle>
-      <CardText>
-      Web based marketing tool for farmers working on Valley Foods.
-      </CardText>
-      <CardActions border>
-      <Button colored>Github </Button>
-      <Button colored>CodePen </Button>
-      <Button colored>Heroku </Button>
-      </CardActions>
-      <CardMenu style={{color:'#fff'}}>
-      <IconButton name="share"/>
-      </CardMenu>
-   </Card>
+   
    </div>
     )
      }else if (this.state.activeTab ===1) {
@@ -64,35 +35,20 @@ toggleCategories(){
          <div className="projects-grid">
          {/*project 1*/}
          <Card shadow={5} style={{minWidth:'450',margin:'auto'}}>
-           <CardTitle style={{color:'#fff',height:'176px',background :'#240b36'}}>MullaCoin</CardTitle>
+           <CardTitle style={{color:'#fff',height:'176px',background :'#240b36'}}>Zen Shopping Cart</CardTitle>
            <CardText>
-          Digital Curreny mobile app which allows farmers to trade commodities using blockchain technology.
+          A Web application that acts as a shopping Cart for accessories for Zen Followers.
            </CardText>
            <CardActions border>
            <Button colored>Github </Button>
-           <Button colored>CodePen </Button>
            <Button colored>Heroku </Button>
            </CardActions>
            <CardMenu style={{color:'#fff'}}>
            <IconButton name="share"/>
            </CardMenu>
         </Card>
-        {/*project 2*/}
-        <Card shadow={5} style={{minWidth:'450',margin:'auto'}}>
-          <CardTitle style={{color:'#fff',height:'176px',background :'#94716B'}}>Den Papi</CardTitle>
-          <CardText>
-        React.js web application allowing varsity students to find homes to stay during tution period
-          </CardText>
-          <CardActions border>
-          <Button colored>Github </Button>
-          <Button colored>CodePen </Button>
-          <Button colored>Heroku </Button>
-          </CardActions>
-          <CardMenu style={{color:'#fff'}}>
-          <IconButton name="share"/>
-          </CardMenu>
-       </Card>
-      </div>
+        </div>
+        
        )
 
        
@@ -101,14 +57,12 @@ toggleCategories(){
         <div className="projects-grid">
         {/*project 1*/}
         <Card shadow={5} style={{minWidth:'450',margin:'auto'}}>
-          <CardTitle style={{color:'#fff',height:'176px',background :'#93291E'}}>Domasy</CardTitle>
+          <CardTitle style={{color:'#fff',height:'176px',background :'#93291E'}}>Supplier Recommender System</CardTitle>
           <CardText>
-          You won’t ﬁnd a list of every Python web framework available here.
-          Rather, you’ll ﬁnd a nice concise list of highly recommended options
+          A web Application that links suppliers and consumers using Association Rule Mining(FP Growth Algorithm).
           </CardText>
           <CardActions border>
           <Button colored>Github </Button>
-          <Button colored>CodePen </Button>
           <Button colored>Heroku </Button>
           </CardActions>
           <CardMenu style={{color:'#fff'}}>
@@ -117,14 +71,12 @@ toggleCategories(){
        </Card>
        {/*project 2*/}
        <Card shadow={5} style={{minWidth:'450',margin:'auto'}}>
-         <CardTitle style={{color:'#fff',height:'176px',background :'##94716B'}}>Kutsvaka Basa</CardTitle>
+         <CardTitle style={{color:'#fff',height:'176px',background :'#94716E'}}>Find Tutor</CardTitle>
          <CardText>
-         You won’t ﬁnd a list of every Python web framework available here.
-         Rather, you’ll ﬁnd a nice concise list of highly recommended options
+        Still in development.
          </CardText>
          <CardActions border>
          <Button colored>Github </Button>
-         <Button colored>CodePen </Button>
          <Button colored>Heroku </Button>
          </CardActions>
          <CardMenu style={{color:'#fff'}}>
@@ -139,16 +91,14 @@ toggleCategories(){
    else if (this.state.activeTab ===3) {
      return(
        <div className="projects-grid">
-       {/*project 1*/}
+       {/*project 3*/}
        <Card shadow={5} style={{minWidth:'450',margin:'auto'}}>
-         <CardTitle style={{color:'#fff',height:'176px',background :'#240b36'}}>Domasy</CardTitle>
+         <CardTitle style={{color:'#fff',height:'176px',background :'#240b36'}}>Find Gardener</CardTitle>
          <CardText>
-         You won’t ﬁnd a list of every Python web framework available here.
-         Rather, you’ll ﬁnd a nice concise list of highly recommended options
+         Laravel Web Application for finding gardners using geolocation.
          </CardText>
          <CardActions border>
          <Button colored>Github </Button>
-         <Button colored>CodePen </Button>
          <Button colored>Heroku </Button>
          </CardActions>
          <CardMenu style={{color:'#fff'}}>
@@ -157,14 +107,12 @@ toggleCategories(){
       </Card>
       {/*project 2*/}
       <Card shadow={5} style={{minWidth:'450',margin:'auto'}}>
-        <CardTitle style={{color:'#fff',height:'176px',background :'#240b36'}}>Kutsvaka Basa</CardTitle>
+        <CardTitle style={{color:'#fff',height:'176px',background :'#6be585'}}>Some Projects under NDA</CardTitle>
         <CardText>
-        You won’t ﬁnd a list of every Python web framework available here.
-        Rather, you’ll ﬁnd a nice concise list of highly recommended options
+       ........
         </CardText>
         <CardActions border>
         <Button colored>Github </Button>
-        <Button colored>CodePen </Button>
         <Button colored>Heroku </Button>
         </CardActions>
         <CardMenu style={{color:'#fff'}}>
@@ -180,14 +128,12 @@ toggleCategories(){
       <div className="projects-grid">
       {/*project 1*/}
       <Card shadow={5} style={{minWidth:'450',margin:'auto'}}>
-        <CardTitle style={{color:'#fff',height:'176px',background :'#240b36'}}>Domasy</CardTitle>
+        <CardTitle style={{color:'#fff',height:'176px',background :'#240b36'}}>Kutsvaka Basa</CardTitle>
         <CardText>
-        You won’t ﬁnd a list of every Python web framework available here.
-        Rather, you’ll ﬁnd a nice concise list of highly recommended options
+       My Personal website acting as my portfolio.
         </CardText>
         <CardActions border>
         <Button colored>Github </Button>
-        <Button colored>CodePen </Button>
         <Button colored>Heroku </Button>
         </CardActions>
         <CardMenu style={{color:'#fff'}}>
@@ -202,14 +148,12 @@ toggleCategories(){
      <div className="projects-grid">
      {/*Ionic */}
      <Card shadow={5} style={{minWidth:'450',margin:'auto'}}>
-       <CardTitle style={{color:'#fff',height:'176px',background :'#240b36'}}>My Profile</CardTitle>
+       <CardTitle style={{color:'#fff',height:'176px',background :'#2C7744'}}>Dommasy</CardTitle>
        <CardText>
-       You won’t ﬁnd a list of every Python web framework available here.
-       Rather, you’ll ﬁnd a nice concise list of highly recommended options
+       Under NDA.
        </CardText>
-       <CardActions border>
+       <CardActions border >
        <Button colored>Github </Button>
-       <Button colored>CodePen </Button>
        <Button colored>Heroku </Button>
        </CardActions>
        <CardMenu style={{color:'#fff'}}>
@@ -229,7 +173,7 @@ render(){
           <Tab>Python</Tab>
           <Tab>C#</Tab>
           <Tab>Flask</Tab>
-          <Tab>ASP.NET</Tab>
+          <Tab>Laravel</Tab>
           <Tab>Reactjs</Tab>
           <Tab>Ionic</Tab>
        </Tabs>

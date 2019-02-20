@@ -12,7 +12,8 @@ class Education extends Component{
 
          <Cell col={8}>
          <h4 style={{marginTop:'0px'}}>{this.props.schoolName}</h4>
-         <p>{this.props.schoolDescription}</p>
+         <p>{this.props.schoolDescription_1}</p>
+         <p>{this.props.schoolDescription_2}</p>
          </Cell>
 
 

@@ -12,20 +12,21 @@ class App extends Component {
       <div className="demo-big-content">
     <Layout >
         <Header className="header-color" title={<Link style={{textDecoration:'none',color:'white'}}
-         to="/"> My Portfolio</Link>} scroll>
+         to="/"> <h3> My Portfolio</h3> </Link>} scroll>
             <Navigation className="navigation-header">
 
-            <Link to="/resume" >Resume</Link>
-          
-            <Link to="/profile" >Contact</Link>
+            <Link to="/resume" ><h6>Resume</h6></Link>
+            <Link to="/projects" ><h6>Projects</h6></Link>
+            <Link to="/profile" ><h6>Contact</h6></Link>
           
             </Navigation>
         </Header>
-        <Drawer title={<Link style={{textDecoration:'none',color:'black'}}
-         to="/"> My Portfolio</Link>}>
+        <Drawer className ="drawer" title={<Link style={{textDecoration:'none',color:'black'}}
+         to="/"> <h3>My Portfolio</h3></Link>}>
         <Navigation>
-        <Link to="/resume" style={{color:'black'}}>Resume</Link>
-         <Link to="/profile" style={{color:'black'}}>Contact</Link>
+        <Link to="/resume" style={{color:'black'}}><h6>Resume</h6></Link>
+        <Link to="/projects" style={{color:'black'}}><h6>Projects</h6></Link>
+         <Link to="/profile" style={{color:'black'}}><h6>Contact</h6></Link>
          </Navigation>
         </Drawer>
         <Content>
